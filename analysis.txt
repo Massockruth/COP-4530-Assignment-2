@@ -1,0 +1,11 @@
+Analysis of Worst-Case Run-Time Complexities
+
+1. reverse() Function:
+   - Complexity: O(N)
+   - Explanation: The function traverses the entire list once and performs constant-time operations for each node, 
+resulting in a linear time complexity proportional to the number of elements in the list.
+
+2. remove_if() Function:
+   - Complexity: O(N)
+   - Explanation: The function traverses the entire list once, evaluating a predicate condition and potentially removing nodes for each element.
+ The operations are assumed to be constant-time, resulting in a linear time complexity proportional to the number of elements in the list.
